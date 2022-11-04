@@ -1,0 +1,59 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  min-height: 100vh;
+}
+
+.feedback-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+}
+.feedback-question-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.feedback-question {
+  text-align: center;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 32px;
+}
+.emojis {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+.emoji-button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+}
+.emoji {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 10px;
+}
+.thankyou-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.thankyou-text {
+  color: #0f172a;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+.description {
+  text-align: center;
+  color: #1e293b;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
